@@ -53,8 +53,9 @@ int main()
     	for(int j=2;j<=help+1;j++)
     	{
     		scanf("%d",&data[i][j]);	 
-		}
 	}
+	
+    }
 	
 	
 	sort(data, data + m);	//Sorting the student-university data
